@@ -85,3 +85,56 @@ a {
   font-size: 0.95em;
   font-weight: 500;
 }
+
+/* Timeline styling */
+.timeline {
+  margin: 2rem 0;
+  padding-left: 2rem;
+  position: relative;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #ddd;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2rem;
+  padding-left: 2rem;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -0.5rem;
+  top: 0.25rem;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #C30000;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 2px #ddd;
+}
+
+.timeline-year {
+  font-weight: 600;
+  color: #C30000;
+  margin-bottom: 0.25rem;
+  font-size: 0.95em;
+}
+
+.timeline-title {
+  font-weight: 500;
+  margin-bottom: 0.1rem;
+}
+
+.timeline-location {
+  color: #666;
+  font-size: 0.9em;
+}
