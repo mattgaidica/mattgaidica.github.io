@@ -1,0 +1,58 @@
+name: Build WashU CV
+
+on:
+  push:
+    branches: [master, main]
+    paths:
+      - "cv/cv.yaml"
+      - "cv/build.py"
+      - "cv/requirements.txt"
+      - ".github/workflows/cv.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: cv-build-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: cv/requirements.txt
+
+      - name: Install pandoc, XeLaTeX, and fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            pandoc \
+            texlive-xetex \
+            texlive-fonts-recommended \
+            lmodern \
+            fonts-liberation
+
+      - name: Install Python dependencies
+        run: pip install -r cv/requirements.txt
+
+      - name: Build DOCX and PDF
+        env:
+          CV_MAINFONT: Liberation Serif
+        run: python cv/build.py
+
+      - name: Commit rebuilt CV artifacts
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(cv): rebuild DOCX/PDF from cv.yaml"
+          file_pattern: "cv/GAIDICA_WashU_CV.docx cv/GAIDICA_WashU_CV.pdf"
+          commit_user_name: github-actions[bot]
+          commit_user_email: github-actions[bot]@users.noreply.github.com

@@ -1,0 +1,716 @@
+meta:
+  name: Matthew Gaidica, PhD
+  revised: 08/2026
+  footer_name: Gaidica, Matthew
+  font: Times New Roman
+  font_size_pt: 10.5
+body:
+- type: section
+  title: Contact Information
+  entries:
+  - dates: Office Address
+    text: |-
+      Department of Neuroscience
+      Neurotech Hub // 2115 NRB
+      4370 Duncan Avenue
+      St. Louis, MO 63110
+  - dates: Phone
+    text: (650) 963-6888
+  - dates: Email
+    text: gaidica@wustl.edu
+- type: section
+  title: Present Position
+  entries:
+  - dates: 09/2023-present
+    text: |-
+      Assistant Professor of Neuroscience (Research Track)
+      Department of Neuroscience
+      Washington University School of Medicine, St. Louis, MO
+- type: section
+  title: Education
+  entries: []
+- type: subsection
+  title: Undergraduate
+  entries:
+  - dates: 09/2005-12/2010
+    text: |-
+      BS
+      Kettering University, Flint, MI (Electrical Engineering)
+- type: subsection
+  title: Graduate
+  entries:
+  - dates: 09/2015-05/2019
+    text: |-
+      PhD
+      University of Michigan, Ann Arbor, MI (Neuroscience)
+      Thesis title: The Motor Thalamus in Action: How Neural Signals Coordinate Across Time in a Ballistic Choice Task
+      Advisor: Dr. Dan Leventhal
+      Dissertation research: electrophysiology and optogenetic methods to investigate the role of the motor thalamus in ballistic movements and movement disorders.
+- type: subsection
+  title: Post-graduate training
+  entries:
+  - dates: 10/2019-07/2023
+    text: |-
+      NASA-TRISH Academy of Bioastronautics Postdoctoral Fellowship
+      University of Michigan, Ann Arbor, MI
+- type: subsection
+  title: Additional education
+  entries:
+  - dates: 09/2022
+    text: |-
+      Program: Officer Training School
+      Institution: U.S. Air Force
+      Location: Maxwell Air Force Base, AL
+- type: section
+  title: Academic and Promotion History
+  entries:
+  - dates: 09/2015-05/2019
+    text: |-
+      Ph.D. Candidate
+      Leventhal Lab, Department of Neurology
+      University of Michigan, Ann Arbor, MI
+  - dates: 09/2016-05/2018
+    text: |-
+      Graduate Student Instructor
+      University of Michigan, Ann Arbor, MI
+  - dates: 10/2019-07/2023
+    text: |-
+      Postdoctoral Fellow
+      Dantzer Lab, Department of Psychology
+      University of Michigan, Ann Arbor, MI
+  - dates: 09/2023-present
+    text: |-
+      Assistant Professor of Neuroscience (Research Track); Director, Neurotech Hub
+      Department of Neuroscience
+      Washington University School of Medicine in St. Louis, St. Louis, MO
+- type: section
+  title: Employment History
+  entries:
+  - dates: 01/2004-12/2005
+    text: Electronics Technician, Testek Inc., Livonia, MI
+  - dates: 09/2005-05/2009
+    text: Electrical Engineering Co-op, Robert Bosch LLC, Plymouth, MI
+  - dates: 07/2010-12/2012
+    text: Founder/Engineer, Matt Gaidica, LLC, Mountain View, CA
+  - dates: 01/2010-10/2012
+    text: Co-founder/Engineer, Prime Studios LLC, Mountain View, CA
+  - dates: 09/2012
+    text: Co-founder, Landr.co (acquired)
+  - dates: 01/2013-12/2014
+    text: Neurology Research Assistant, University of Michigan, Ann Arbor, MI
+  - dates: 08/2013-05/2014
+    text: Board of Directors Vice President, FlexTech Academy, Novi, MI
+  - dates: 06/2016
+    text: Founder, GammaLightTherapy.com (acquired)
+  - dates: 10/2025-present
+    text: Founder, Hublink.cloud, St. Louis, MO
+- type: section
+  title: Professional Licensures and Certifications
+  entries: []
+- type: subsection
+  title: Licenses
+  entries:
+  - dates: '2022'
+    text: |-
+      License/certificate: Private Pilot Certificate
+      Issuing organization: Federal Aviation Administration
+      License number: 4405703
+      Current status: Active
+- type: subsection
+  title: Certifications and training
+  entries:
+  - dates: 2014-2019
+    text: |-
+      BLS005w Laser Safety
+      ULAM-10050 ULAM Hazard Containment Part for Rodents
+      ULAM-10100 Introduction to the Laboratory Rat and Mouse
+      ULAM-10120 Rodent Survival Surgery; ULAM-10131-2 Animal Room Procedures for Rodents
+      ULAM-10900 Introduction to the Non-Human Primate and Zoonoses
+      ULAM-12500 Introduction to Wildlife
+      ULAM-50042 Technique: Subcutaneous Implant
+      ULAM-50116 Technique: Laparotomy
+      SAFE-35129-R17 Hazard
+- type: section
+  title: Military Service
+  entries:
+  - dates: '2018'
+    text: |-
+      Battlefield Airman Scholarship Program Recipient, U.S. Air Force
+      Specialty: 9T100 Officer Trainee, Combat Rescue Officer Phase II Non-select (Class 18B)
+      National Defense Service Medal; Global War on Terrorism Service Medal; Air and Space Training Ribbon
+  - dates: '2022'
+    text: |-
+      Officer Training School, U.S. Air Force
+      Leo Keith Thorsness Fitness Excellence Award (Flight & Squadron)
+  - dates: 2022-2023
+    text: |-
+      2LT Civil Engineer (32E), 445th Airlift Wing, U.S. Air Force Reserve, Wright-Patterson AFB
+      Officer in Charge - Operations/Structures
+      Expert Marksmanship Ribbon (Small Arms & Rifle, Bronze Star)
+      Air and Space Achievement Medal
+  - dates: 2023-present
+    text: |-
+      1LT Civil Engineer (32E), 932d Airlift Wing, U.S. Air Force Reserve, Scott AFB
+      Flight Commander - Operations
+      Norwegian Foot March Medalist, Silver
+  - dates: 10/2025-04/2026
+    text: |-
+      Operation Epic Fury, Al Udeid Air Base, Qatar
+      Operations Engineering Flight Chief
+      Air and Space Achievement Medal with Combat Device, Army Achievement Medal
+      Roles During Combat: Unit Operations Center (UCC), Officer in Charge; Emergency Operations Center (EOC), Civil Engineer Element Lead
+- type: section
+  title: Honors and Awards
+  entries:
+  - dates: '2013'
+    text: Kettering University Distinguished Alumni Award
+  - dates: '2015'
+    text: Kettering University Young Alumni Award
+  - dates: '2015'
+    text: Pacific Standard Magazine Top 30 Thinkers Under 30
+  - dates: '2015'
+    text: NSF Graduate Research Fellowship Honorable Mention
+  - dates: '2016'
+    text: Forbes 30 Under 30, Science
+  - dates: '2016'
+    text: 'Harvard Travellers Club Research Grantee: Characterizing Beta Oscillations During
+      Motor Task, Annapurna Base Camp, Nepal'
+  - dates: '2017'
+    text: Neuroscience Graduate Program Award for Innovative Research
+  - dates: '2017'
+    text: International Hypoxia Symposium, First Place Poster, Junior Scientist Category
+  - dates: '2017'
+    text: Lemelson-MIT Student Prize Nominee, Cure It Category
+  - dates: '2018'
+    text: Excellence in Teaching Nominee, Office of Graduate and Postgraduate Studies
+  - dates: '2018'
+    text: Gupta Family Hackathon for Health Communication, Best Presentation
+  - dates: '2020'
+    text: University of Michigan MedLaunch Mask Challenge, First Place
+  - dates: '2025'
+    text: Explorers Club, Fellow
+- type: section
+  title: Editorial and Review Responsibilities
+  entries: []
+- type: subsection
+  title: Ad Hoc Manuscript Reviews
+  entries:
+  - dates: '2021'
+    text: Methods in Ecology and Evolution
+  - dates: '2026'
+    text: Methods in Ecology and Evolution
+  - dates: '2026'
+    text: Behavior Research Methods
+- type: subsection
+  title: Abstract Review for National and International Meetings
+  entries:
+  - dates: '2021'
+    text: SLEEP Meeting Abstract Reviewer
+- type: section
+  title: Community Service Contributions
+  entries: []
+- type: subsection
+  title: Community Outreach & Volunteer Service
+  entries:
+  - dates: '2010'
+    text: FIRST Robotics, Northville Robostangs Mentor
+  - dates: '2014'
+    text: Greater Questions in Neuroscience (GQiN) Series Coordinator
+  - dates: '2014'
+    text: Neuroscience Graduate Program, Interview Weekend Chaperone
+  - dates: '2015'
+    text: Program in Biomedical Sciences Student Seminar Invited Panelist
+  - dates: '2015'
+    text: FIRST Robotics FTC, Canton Double Qualifier Official Judge
+  - dates: '2016'
+    text: UROP Student Seminar, University of Michigan Invited Speaker
+  - dates: '2016'
+    text: Genes for Good, University of Michigan Contributor
+  - dates: '2016'
+    text: Adventurers and Scientists for Conservation, SCAT Program Contributor, Torres del
+      Paine National Park, Magallanes Region, Chile
+  - dates: '2016'
+    text: Spooky Science Day, Michigan Science Center Volunteer
+  - dates: '2016'
+    text: FEMMES After School Activities Night, Adams STEM Elementary School Volunteer
+  - dates: '2017'
+    text: Ann Arbor Health Hacks, High Altitude Happy Hour Presenter
+  - dates: '2017'
+    text: Science Olympiad, Pioneer High School Volunteer
+  - dates: '2017'
+    text: Project Healthy Schools Health Ambassador
+  - dates: '2017'
+    text: Rock Steady Boxing (Parkinson’s Boxing Class) Coach/Volunteer
+  - dates: '2018'
+    text: Tappan Middle School Field Day Fun Run Volunteer
+  - dates: '2019'
+    text: Saturdays with Scientists, Michigan Science Center Volunteer
+  - dates: '2021'
+    text: Letters to a Pre-Scientist Penpal
+  - dates: '2022'
+    text: Future Engineers Judge
+  - dates: '2022'
+    text: Xplore Camp - Neural Engineering Volunteer
+  - dates: '2023'
+    text: Brain Carnival at SciFest, St. Louis Science Center Volunteer
+  - dates: '2024'
+    text: Research Statement Round Table, Office of Postdoctoral Affairs, Washington University,
+      Invited Faculty
+- type: subsection
+  title: Washington University in St. Louis School of Medicine Committee and Administrative
+    Service
+  entries:
+  - dates: 09/2023-present
+    text: Founding Director, Neurotech Hub, Department of Neuroscience
+  - dates: 06/2026-present
+    text: Department of Neuroscience OTM Liaison
+- type: subsection
+  title: Membership in Professional Societies
+  entries:
+  - dates: 06/2025-present
+    text: The Explorers Club, Fellow
+- type: section
+  title: Teaching
+  entries: []
+- type: subsection
+  title: Courses
+  entries:
+  - dates: '2016'
+    text: |-
+      Course: MCDB 352: Neurobiology of Sensory and Motor Systems
+      Role: Graduate Student Instructor
+      Institution: University of Michigan
+      Duration: Semester
+      Number of learners: 120
+  - dates: 2017-2019
+    text: |-
+      Course: PHYSIOL 406: Extreme Physiology, High Altitude & Hypoxia
+      Role: Lecturer
+      Institution: University of Michigan
+      Duration: Single Lecture, Grader
+      Number of learners: 25
+  - dates: '2018'
+    text: |-
+      Course: BIO 222: Principles of Cellular and Molecular Neuroscience
+      Role: Graduate Student Instructor
+      Institution: University of Michigan
+      Duration: Semester
+      Number of learners: 120
+  - dates: 2021-2022
+    text: |-
+      Course: PSYCH 235: Intro to Evolution & Behavior, Evolution of Sleep
+      Role: Lecturer
+      Institution: University of Michigan
+      Duration: Single Lecture, Grader
+      Number of learners: 45
+  - dates: 2021-2022
+    text: |-
+      Course: Health Management and Data Intelligence Program at Emlyon, Space Health
+      Role: Lecturer
+      Institution: Emlyon Business School
+      Duration: Single Lecture (remote)
+      Number of learners: 30
+- type: subsection
+  title: Major External Invited Presentations, including Professorships and Lectures
+  entries:
+  - dates: '2011'
+    text: '“3 Things: What Artificial Intelligence Can Teach Us.” TEDxFlint, Flint, MI'
+  - dates: '2013'
+    text: '“Brain Evolution and the Ulysses Contract: Welcome to College!” Kettering University
+      Freshman Orientation, Flint, MI'
+  - dates: '2013'
+    text: '“Why We Hate What We Love To Do: The Science Behind Our Changing Minds.” Kensington
+      Woods High School Professional Development Seminar, Kensington, MI'
+  - dates: '2013'
+    text: “Being a Bootstrapped Engineer In Silicon Valley.” Kettering University Distinguished
+      Speaker Series, Flint, MI
+  - dates: '2015'
+    text: '“Curiosity, Connections, and Value Creation: From Entrepreneur to Intrapreneur.”
+      Unleashing the Entrepreneur, Kettering University, Flint, MI'
+  - dates: '2016'
+    text: “Unraveling Parkinson’s Disease in the OR, Himalaya, and Space.” TEDxYouth@SanDiego,
+      Canyon Crest Academy, San Diego, CA
+  - dates: '2017'
+    text: “Beyond the Relay Towards Pathway-Specific Optogenetics in the Motor Thalamus.”
+      3rd Annual Udall Center for Parkinson’s Disease Research Symposium, Ann Arbor, MI
+  - dates: '2020'
+    text: '“Stori: Using a Graph Database to Connect Disparate Topics in Research.” Grakn
+      Cosmos, London, UK'
+  - dates: '2021'
+    text: “In Search of Health & Performance.” Keynote, Health Management Data Intelligence
+      Program, Emlyon Business School, France
+  - dates: '2021'
+    text: '“Space Analogs: How to get an idea off the ground.” Emlyon Business School, France'
+  - dates: '2021'
+    text: '“Space Countermeasures in a Non-traditional Mammal: Challenges, Solutions.” American
+      Association for Laboratory Animal Science, Ann Arbor, MI'
+- type: subsection
+  title: Internal Presentations & Lectures at University
+  entries:
+  - dates: '2015'
+    text: '“Loops in the Brain: Probing the Parkinsonian Motor System.” University of Michigan
+      Neuroscience Graduate Program Retreat, Detroit, MI'
+  - dates: '2015'
+    text: “How The Brain Works and How We Thought Planes Would Fly.” University of Michigan
+      Neuroscience Recruiting Weekend, Ann Arbor, MI
+  - dates: '2017'
+    text: “Thalamocortical Contributions to Motor Behavior.” Neuroscience Graduate Program
+      Spring Symposium, Ann Arbor, MI
+  - dates: '2021'
+    text: “Neuroethology and the Development of Countermeasures for Astronauts.” Biopsychology
+      Colloquium, Ann Arbor, MI
+- type: section
+  title: Mentorship & Sponsorship Record
+  entries: []
+- type: subsection
+  title: 'Served as career development mentor and/or sponsor for:'
+  entries:
+  - dates: '2016'
+    text: |-
+      Mentee: Alexandra Falkenberg
+      Institution: University of Michigan, Department of Kinesiology
+      Outcome: PhD Program
+  - dates: '2017'
+    text: |-
+      Mentee: Christopher Cyr
+      Institution: University of Michigan, Department of Neuroscience
+      Outcome: MD Program
+  - dates: '2018'
+    text: |-
+      Mentee: Hannah Sofier
+      Institution: University of Michigan, Department of Computer Science
+      Outcome: Industry
+  - dates: '2018'
+    text: |-
+      Mentee: Maximillian Wagner
+      Institution: University of Michigan, Department of Neuroscience
+      Outcome: Industry
+  - dates: '2019'
+    text: |-
+      Mentee: Ashish Kamath
+      Institution: University of Michigan, Department of Computer Science
+      Outcome: Industry
+  - dates: '2021'
+    text: |-
+      Mentee: Bhargavi Ravishankar
+      Institution: University of Michigan, Department of Electrical Engineering/Computer Science
+      Outcome: Industry
+  - dates: '2025'
+    text: |-
+      Mentee: Chris Allen
+      Institution: Washington University, Department of Mechanical Engineering
+      Outcome: Industry
+  - dates: 2025-present
+    text: |-
+      Mentee: Jemin Kachhadiya
+      Institution: Washington University, Department of Neuroscience
+- type: section
+  title: Research
+  entries: []
+- type: subsection
+  title: Present Intramural Grants
+  entries:
+  - dates: 03/2025-08/2026
+    text: |-
+      Funding agency: Washington University Gap Fund / Office of Technology Management
+      Grant number: T-021261
+      PI: Matthew Gaidica
+      Title of grant: Hublink Gateway Manager
+      Brief description of grant: Business and technology development as a pathway to commercializing hublink.cloud.
+      Role: PI
+      Effort Support: 0% (funds issued for contract/goods only)
+      Total project amount awarded: $55,000
+  - dates: 06/2026-07/2027
+    text: |-
+      Funding agency: McDonnell Center for Systems Neuroscience
+      Grant number: GF0014470
+      PI: Matthew Gaidica
+      Title of grant: A Platform for Spatially Structured Ethological Behavior
+      Brief description of grant: Development of modular home-cage platform that transforms the cage floor into a distributed, programmable foraging environment, enabling continuous, ethologically grounded behavior in freely moving rodents.
+      Role: PI
+      Effort Support: 0% (funds support Senior Research Engineering effort, goods, and collaborators)
+      Total project amount awarded: $40,000
+  - dates: 10/2024-10/2026
+    text: |-
+      Funding agency: Washington University McDonnell Center
+      Grant number: GF0013142
+      PI: Bruce Carlson
+      Title of grant: Novel Devices for Chronic Recording of Communication Behavior and its Neural Substrates
+      Brief description of grant: Development of wearable recording devices for electric fish.
+      Role: Collaborator
+      Effort Support: 10% (Neurotech Hub Membership)
+      Awarded amount: $30,000
+- type: subsection
+  title: Past Extramural Funding
+  entries:
+  - dates: 10/2023-04/2024
+    text: |-
+      Funding agency: Anomaly Entertainment Inc.
+      Grant number: GR0032178 / AW00012260
+      PI: Matthew Gaidica
+      Title of grant/project: APEX access and use of the Aquatic Predator Electro Xplorer for the television program Brain of Jaws
+      Brief description of grant/project: Development of novel recording tools for great white sharks.
+      Role: PI
+      Effort Support: 20%
+      Awarded amount: $65,000
+- type: subsection
+  title: Submitted Applications
+  entries:
+  - dates: '2024'
+    text: |-
+      Funding agency: National Science Foundation (NSF)
+      PI: Barani Raman
+      Title of grant/application: Translating insect olfaction principles into practical and robust chemical sensing platforms
+      Role: Co-Investigator
+      Effort Support: 15%
+      Outcome: Not funded
+  - dates: '2025'
+    text: |-
+      Funding agency: National Science Foundation (NSF)
+      PI: ShiNung Ching
+      Title of grant/application: CRCNS Research Proposal: Individualized model-based control of brain dynamics for cognitive enhancement
+      Role: Co-Investigator
+      Effort Support: 20%
+      Outcome: Not funded
+  - dates: '2025'
+    text: |-
+      Funding agency: Fauna and Flora International
+      PI: Matthew Gaidica
+      Title of grant/application: Field to Cloud: ARM-based Data Collection for Wildlife Research
+      Role: PI
+      Effort Support: 20%
+      Outcome: Not funded
+  - dates: '2025'
+    text: |-
+      Funding agency: National Institutes of Health
+      PI: Matthew Rosengart
+      Title: Enhancing the education of post-graduates in the surgical sciences
+      Role: Mentor
+      Effort Support: 5%
+      Outcome: Awaiting
+  - dates: '2026'
+    text: |-
+      Funding agency: Advanced Research Projects Agency for Health (ARPA-H)
+      Grant number: P26-02273
+      PI: Leo Shmuylovich
+      Title of grant/application: Glow-based Lymphatic Enhancement with Angiographic Mapping (GLEAM)
+      Role: Co-Investigator
+      Effort Support: 20%
+      Outcome: not funded; potential future pilot funding
+- type: section
+  title: Entrepreneurship
+  entries:
+  - dates: '2008'
+    text: |-
+      Name of project Resistive touchpad with interchangeable templates
+      Role: Inventor
+      Status: Provisional Patent 61/069,477
+  - dates: '2012'
+    text: |-
+      Name of project Smart Identification of Colors in an Image used to automate the Design of a Mobile Application or Product
+      Role: Inventor
+      Status: Provisional Patent 61/618,846
+  - dates: '2016'
+    text: |-
+      Name of project: U.S. Patent 62/369,132. Surgical Tool for Cranial Drill Alignment in Rodents
+      Role: Inventor
+      Status: Patent pending
+  - dates: '2017'
+    text: |-
+      Name of project: Automated Light Perception System (ALPS)
+      Role: Inventor
+      Status: Provisional Patent 62/532,076
+  - dates: '2022'
+    text: |-
+      Name of project: An Implantable Neurophysiology Platform (University of Michigan Invention Disclosure 2022-377)
+      Role: Inventor
+  - dates: '2023'
+    text: |-
+      Name of project Multi-function Wireless Wearable Proximity Devices (University of Michigan Invention Disclosure 2023-456)
+      Role: Inventor
+  - dates: '2024'
+    text: |-
+      Name of project: A method for measuring liquid volume in small tubes of up to 50mL (Washington University Invention Disclosure DF-019320)
+      Role: Inventor
+  - dates: '2024'
+    text: |-
+      Name of project: Miniature modular fused release mechanism (Washington University Invention Disclosure DF-019336)
+      Role: Inventor
+  - dates: '2024'
+    text: |-
+      Name of project: Advanced Research Cranial Hub (ARCH) Stimulator (Washington University Invention Disclosure DF-019883)
+      Role: Inventor
+      Status: Patent pending
+  - dates: '2025'
+    text: |-
+      Name of project: Feeding Experimental Device 4 (FED4): An in-cage 24/7 animal behavior tool  (Washington University Invention Disclosure T-021255)
+      Role: Inventor
+      Status: Patent pending
+  - dates: '2026'
+    text: |-
+      Name of project: Chronolume: a clinician-controlled app for wearable light therapy (Washington University Invention Disclosure In Progress)
+      Role: Inventor
+  - dates: 2024-present
+    text: |-
+      Name of project: Neurotech Hub Store products
+      Brief description: Hub Wheel, Body Event Analysis Module, and Juxta proximity loggers
+      Role: Director, Neurotech Hub
+  - dates: 2025-present
+    text: |-
+      Name of project: Hublink.cloud
+      Brief description: Bluetooth-to-cloud behavioral data platform supporting Hublink-compatible devices
+      Role: Founder
+- type: subsection
+  title: Selected Research Platforms and Contributions
+  entries:
+  - dates: 09/2023-present
+    text: |-
+      Platform/contribution: Neurotech Hub
+      Evidence/scale: supported 60 projects across 48 laboratories and delivered more than 50 targeted training sessions since joining Washington University
+      Role: Founding Director
+  - dates: 09/2023-present
+    text: |-
+      Platform/contribution: Hublink.cloud
+      Evidence/scale: wireless data platform supporting more than 200,000 wireless file uploads from animal home cages
+      Role: Founder
+  - dates: 09/2023-present
+    text: |-
+      Platform/contribution: Neurotech Hub open-source and web dissemination
+      Evidence/scale: maintains 120 open-source repositories and oversees web tools serving more than 7,000 users per month
+      Role: Director, Neurotech Hub
+- type: section
+  title: Bibliography
+  entries: []
+- type: bibliography
+  title: Original, peer reviewed articles in refereed journals
+  items:
+  - 'Ellens DJ, Gaidica M, Toader A, Peng S, Shue S, John T, Bova A, Leventhal DK. An automated
+    rat single pellet reaching system with high-speed video capture. Journal of Neuroscience
+    Methods. 2016;271:119-127. PMID: 27450925. PMCID: PMC5003677. DOI: 10.1016/j.jneumeth.2016.07.009.'
+  - Schroeder KE, Irwin ZT, Gaidica M, Bentley JN, Patil PG, Mashour GA, Chestek CA. Disruption
+    of corticocortical information transfer during ketamine anesthesia in the primate brain.
+    NeuroImage. 2016;134:459-465.
+  - Gaidica M, Clem J. Enhanced Neuronal Synchrony During Skilled Reaching at High Altitude.
+    High Altitude Medicine & Biology. 2017;18(3):296-298.
+  - 'Gaidica M, Hurst A, Cyr C, Leventhal DK. Distinct populations of motor thalamic neurons
+    encode action initiation, action selection, and movement vigor. Journal of Neuroscience.
+    2018;38(29):6563-6573. PMID: 29934350. PMCID: PMC6052244. DOI: 10.1523/JNEUROSCI.0463-18.2018.'
+  - Gaidica M, Hurst A, Cyr C, Leventhal DK. Interactions between motor thalamic field potentials
+    and single-unit spiking are correlated with behavior in rats. Frontiers in Neural Circuits.
+    2020;14:52.
+  - 'Gaidica M, Dantzer B. Quantifying the autonomic response to stressors - one way to expand
+    the definition of “stress” in animals. Integrative and Comparative Biology. 2020;60(1):113-125.
+    PMID: 32186720. DOI: 10.1093/icb/icaa009.'
+  - 'Bova A, Gaidica M, Hurst A, Iwai Y, Hunter J, Leventhal DK. Precisely timed dopamine
+    signals establish distinct kinematic representations of skilled movements. eLife. 2020;9:e61591.
+    PMID: 33245045. PMCID: PMC7861618. DOI: 10.7554/eLife.61591.'
+  - 'Gaidica M, Dantzer B. An implantable neurophysiology platform: Broadening research capabilities
+    in free-living and non-traditional animals. Frontiers in Neural Circuits. 2022;16:940989.
+    PMID: 36213207. PMCID: PMC9537467. DOI: 10.3389/fncir.2022.940989.'
+  - 'Gaidica M, Zhang M, Dantzer B. A Wireless Wearable Ecosystem for Social Network Analysis
+    in Free-living Animals. IEEE Sensors Letters. 2024;8(7):6006804. PMID: 38948074. PMCID:
+    PMC11210449. DOI: 10.1109/LSENS.2024.3406328.'
+  - 'Sanders JI, Studd EK, Dantzer B, Wishart AE, Gaidica M, Ruckstuhl KE, Boutin S, Lane
+    JE, Martinig AR. Collar? I barely know her: The utility of accelerometry in measuring
+    personality in situ for a free-ranging wild mammal. Animal Behaviour. 2025;220:123045.'
+  - 'Cohen-Bodénès S, Malak EI, Trapani JG, Gaidica M, Militchin VA, et al. Station Holding
+    During Rheotaxis: A Sensitive Assay of Lateral Line Function in Larval Zebrafish. Bio-protocol.
+    2025;15(24).'
+  - Murrell CL, Legaria AA, McCullough KB, Nwacha A, Nasiru MO, Alves Ferreira Dias S, Chase
+    R, Barrett MR, Gaidica M, Hiratani N, Creed MC, Dougherty JD, Maloney SE, Kravitz AV.
+    Sex Differences in Exploration–Exploitation Strategies During Home-Cage Decision Making.
+    eLife. 2026;15:RP111657.
+- type: bibliography
+  title: Books
+  items:
+  - 'Gaidica M. Left: A History of the Hemispheres. Self-published. 2014.'
+- type: bibliography
+  title: Preprints and public scholarly products
+  items:
+  - Gaidica M, Studd E, Wishart AE, Gonzalez W, Lane JE, McAdam AG, Boutin S, Dantzer B. Using
+    a Homeogram to Detect Sleep in Free-living Animals. bioRxiv. 2021.
+  - 'Gaidica M. “Deep Sleep”: A Comparative Approach to Defining Meaningful Rest. Preprints.
+    2022.'
+  - 'Gaidica M, Gallagher A. Cerebral Seas: Profiling Brain Rhythms in Marine Apex Predators.
+    Authorea Preprints. 2024.'
+  - 'Gaidica M. Biocosm: A Simulation Environment for Designing Energy-Constrained Ethological
+    Sensors. bioRxiv. 2026.'
+  - 'Gaidica M., Rosengart, M. Consumer extended-reality glasses as a calibrated platform
+    for controlled retinal photostimulation: spectral and dose validation of a binocular micro-OLED
+    display. bioRxiv. 2026 (exp).'
+- type: section
+  title: Abstracts and Presentations
+  entries:
+  - dates: '2014'
+    text: Annual Neuroscience Graduate Program Retreat, Poster, Almont, MI
+  - dates: '2014'
+    text: Society for Neuroscience Annual Meeting, Poster, Washington, DC
+  - dates: '2015'
+    text: Catalyzing Advocacy in Science and Engineering, Representative, Washington, DC
+  - dates: '2015'
+    text: Global Engagement of Doctoral Education Symposium, Presenter, Tel Aviv, Israel
+  - dates: '2015'
+    text: Society for Neuroscience Annual Meeting, Poster, Chicago, IL
+  - dates: '2016'
+    text: Neuroscience and Biological Psychiatry Conference, Poster, St. Petersburg, Russia;
+      Rackham Graduate School International Travel Grant Awardee
+  - dates: '2016'
+    text: University of Michigan Neuroscience Day, Poster, Ann Arbor, MI
+  - dates: '2016'
+    text: International Conference on the Advancement of Neurotechnology, Poster, Ann Arbor,
+      MI
+  - dates: '2016'
+    text: 9th Annual Taubman Institute Symposium, Poster, Ann Arbor, MI
+  - dates: '2016'
+    text: NINDS Udall Centers Meeting, Poster, Bethesda, MD
+  - dates: '2016'
+    text: Society for Neuroscience Annual Meeting, Abstract, San Diego, CA
+  - dates: '2017'
+    text: International Hypoxia Symposium, Poster, Alberta, Canada; First Place Poster, Junior
+      Scientist Category; Rackham Graduate School International Travel Grant Awardee
+  - dates: '2017'
+    text: International Conference on the Advancement of Neurotechnology, Poster, Freiburg,
+      Germany
+  - dates: '2017'
+    text: Annual Neuroscience Graduate Program Retreat, Poster, Howell, MI
+  - dates: '2017'
+    text: Society for Neuroscience Annual Meeting, Poster, Washington, DC; Rackham Graduate
+      School Travel Grant Awardee
+  - dates: '2018'
+    text: Society for the Neural Control of Movement Annual Meeting, Poster, Santa Fe, NM
+  - dates: '2018'
+    text: Aerospace Medical Association 89th Annual Meeting, Attendee, Dallas, TX
+  - dates: '2019'
+    text: Annual Kluane Red Squirrel Project Workshop, Presenter, Edmonton, Canada
+  - dates: '2020'
+    text: SLEEP Meeting, Attendee, Virtual
+  - dates: '2021'
+    text: NASA HRP Investigators’ Workshop, Digital Presentation, Virtual
+  - dates: '2021'
+    text: Animal Behavior Society Annual Meeting, Poster, Virtual
+  - dates: '2021'
+    text: Aerospace Medicine Association Annual Meeting
+  - dates: '2021'
+    text: 7th Annual International Bio-logging Symposium, Hybrid Poster, Virtual
+  - dates: '2022'
+    text: NASA HRP Investigators’ Workshop, Digital Presentation, Virtual
+  - dates: '2022'
+    text: Space Medicine Research Jam, Ann Arbor, MI
+  - dates: '2022'
+    text: University of Arizona Sleep Wearables Workshop, Virtual
+  - dates: '2022'
+    text: Lunar Biology Technology Workshop, Virtual (NASA Ames)
+  - dates: '2022'
+    text: Neural Engineering Training Program Symposium, Poster, Ann Arbor, MI
+  - dates: '2022'
+    text: Society for Neuroscience Annual Meeting, Poster, Virtual
+  - dates: '2023'
+    text: NASA HRP Investigators’ Workshop, Presentation, Galveston, TX
+  - dates: '2023'
+    text: NIH Brain Behavior Quantification and Synchronization Workshop, Virtual
+  - dates: '2023'
+    text: Neuroscience Retreat (Annual), Lightning Talk, St. Louis, MO
+  - dates: '2023'
+    text: Neuroscience 2023, Nanosymposium, Washington, DC
+  - dates: '2024'
+    text: INSPIRE Symposium, Poster, St. Louis, MO
