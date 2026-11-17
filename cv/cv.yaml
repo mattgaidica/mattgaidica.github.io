@@ -1,6 +1,6 @@
 meta:
   name: Matthew Gaidica, PhD
-  revised: 08/2026
+  revised: 11/2026
   footer_name: Gaidica, Matthew
   font: Times New Roman
   font_size_pt: 10.5
@@ -150,8 +150,8 @@ body:
       Air and Space Achievement Medal
   - dates: 2023-present
     text: |-
-      1LT Civil Engineer (32E), 932d Airlift Wing, U.S. Air Force Reserve, Scott AFB
-      Flight Commander - Operations
+      1LT Civil Engineer (32E), 932d Civil Engineer Squadron, 932d Airlift Wing, U.S. Air Force Reserve, Scott AFB
+      Commander, Operations
       Norwegian Foot March Medalist, Silver
   - dates: 10/2025-04/2026
     text: |-
@@ -264,6 +264,10 @@ body:
     text: Founding Director, Neurotech Hub, Department of Neuroscience
   - dates: 06/2026-present
     text: Department of Neuroscience OTM Liaison
+  - dates: 09/2026-present
+    text: Director, Neuroscience Innovation, Department of Neuroscience
+  - dates: 10/2026
+    text: Organizer, Host, and Moderator, Disrupt Neuroscience (live podcast event on neuroscience innovation and commercialization), Department of Neuroscience and Office of Technology Management
 - type: subsection
   title: Membership in Professional Societies
   entries:
@@ -359,6 +363,8 @@ body:
   - dates: '2021'
     text: “Neuroethology and the Development of Countermeasures for Astronauts.” Biopsychology
       Colloquium, Ann Arbor, MI
+  - dates: '2026'
+    text: “Building a Business Inside an Institution.” Washington University Researchers’ Forum, St. Louis, MO
 - type: section
   title: Mentorship & Sponsorship Record
   entries: []
@@ -410,7 +416,17 @@ body:
 - type: subsection
   title: Present Intramural Grants
   entries:
-  - dates: 03/2025-08/2026
+  - dates: 10/2024-10/2026
+    text: |-
+      Funding agency: McDonnell Center for Systems Neuroscience
+      Grant number: GF0013142
+      PI: Bruce Carlson
+      Title of grant: Novel Devices for Chronic Recording of Communication Behavior and its Neural Substrates
+      Brief description of grant: Development of wearable recording devices for electric fish.
+      Role: Collaborator
+      Effort Support: 10% (Neurotech Hub Membership)
+      Total project amount awarded: $30,000
+  - dates: 03/2025-present
     text: |-
       Funding agency: Washington University Gap Fund / Office of Technology Management
       Grant number: T-021261
@@ -430,29 +446,29 @@ body:
       Role: PI
       Effort Support: 0% (funds support Senior Research Engineering effort, goods, and collaborators)
       Total project amount awarded: $40,000
-  - dates: 10/2024-10/2026
-    text: |-
-      Funding agency: Washington University McDonnell Center
-      Grant number: GF0013142
-      PI: Bruce Carlson
-      Title of grant: Novel Devices for Chronic Recording of Communication Behavior and its Neural Substrates
-      Brief description of grant: Development of wearable recording devices for electric fish.
-      Role: Collaborator
-      Effort Support: 10% (Neurotech Hub Membership)
-      Awarded amount: $30,000
 - type: subsection
   title: Past Extramural Funding
   entries:
+  - dates: 08/2020-02/2024
+    text: |-
+      Funding agency: NASA Translational Research Institute for Space Health (TRISH), via Baylor College of Medicine (NASA Cooperative Agreement NNX16AO69A)
+      Grant number: P0502
+      PI: Matthew Gaidica (Mentor: Ben Dantzer)
+      Title of grant: Manipulating Sleep Architecture as an Operational Countermeasure
+      Brief description of grant: Postdoctoral fellowship testing non-invasive audio enhancement of slow-wave sleep as a countermeasure for spaceflight stressors, using free-living red squirrels at a high-latitude field site as a translational analog, and developing an autonomous, deployable sleep countermeasure tool.
+      Role: PI
+      Effort Support: 100%
+      Total project amount awarded: $230,000
   - dates: 10/2023-04/2024
     text: |-
       Funding agency: Anomaly Entertainment Inc.
       Grant number: GR0032178 / AW00012260
       PI: Matthew Gaidica
-      Title of grant/project: APEX access and use of the Aquatic Predator Electro Xplorer for the television program Brain of Jaws
-      Brief description of grant/project: Development of novel recording tools for great white sharks.
+      Title of grant: APEX access and use of the Aquatic Predator Electro Xplorer for the television program Brain of Jaws
+      Brief description of grant: Development of novel recording tools for great white sharks.
       Role: PI
       Effort Support: 20%
-      Awarded amount: $65,000
+      Total project amount awarded: $65,000
 - type: subsection
   title: Submitted Applications
   entries:
@@ -484,7 +500,7 @@ body:
     text: |-
       Funding agency: National Institutes of Health
       PI: Matthew Rosengart
-      Title: Enhancing the education of post-graduates in the surgical sciences
+      Title of grant/application: Enhancing the education of post-graduates in the surgical sciences
       Role: Mentor
       Effort Support: 5%
       Outcome: Awaiting
@@ -502,12 +518,12 @@ body:
   entries:
   - dates: '2008'
     text: |-
-      Name of project Resistive touchpad with interchangeable templates
+      Name of project: Resistive touchpad with interchangeable templates
       Role: Inventor
       Status: Provisional Patent 61/069,477
   - dates: '2012'
     text: |-
-      Name of project Smart Identification of Colors in an Image used to automate the Design of a Mobile Application or Product
+      Name of project: Smart Identification of Colors in an Image used to automate the Design of a Mobile Application or Product
       Role: Inventor
       Status: Provisional Patent 61/618,846
   - dates: '2016'
@@ -526,7 +542,7 @@ body:
       Role: Inventor
   - dates: '2023'
     text: |-
-      Name of project Multi-function Wireless Wearable Proximity Devices (University of Michigan Invention Disclosure 2023-456)
+      Name of project: Multi-function Wireless Wearable Proximity Devices (University of Michigan Invention Disclosure 2023-456)
       Role: Inventor
   - dates: '2024'
     text: |-
@@ -541,6 +557,16 @@ body:
       Name of project: Advanced Research Cranial Hub (ARCH) Stimulator (Washington University Invention Disclosure DF-019883)
       Role: Inventor
       Status: Patent pending
+  - dates: 2024-present
+    text: |-
+      Name of project: Neurotech Hub Store products
+      Brief description: Hub Wheel, Body Event Analysis Module, and Juxta proximity loggers
+      Role: Director, Neurotech Hub
+  - dates: 2024-present
+    text: |-
+      Name of project: Hublink.cloud
+      Brief description: Bluetooth-to-cloud behavioral data platform supporting Hublink-compatible devices
+      Role: Founder
   - dates: '2025'
     text: |-
       Name of project: Feeding Experimental Device 4 (FED4): An in-cage 24/7 animal behavior tool  (Washington University Invention Disclosure T-021255)
@@ -550,16 +576,6 @@ body:
     text: |-
       Name of project: Chronolume: a clinician-controlled app for wearable light therapy (Washington University Invention Disclosure In Progress)
       Role: Inventor
-  - dates: 2024-present
-    text: |-
-      Name of project: Neurotech Hub Store products
-      Brief description: Hub Wheel, Body Event Analysis Module, and Juxta proximity loggers
-      Role: Director, Neurotech Hub
-  - dates: 2025-present
-    text: |-
-      Name of project: Hublink.cloud
-      Brief description: Bluetooth-to-cloud behavioral data platform supporting Hublink-compatible devices
-      Role: Founder
 - type: subsection
   title: Selected Research Platforms and Contributions
   entries:
@@ -570,14 +586,14 @@ body:
       Role: Founding Director
   - dates: 09/2023-present
     text: |-
-      Platform/contribution: Hublink.cloud
-      Evidence/scale: wireless data platform supporting more than 200,000 wireless file uploads from animal home cages
-      Role: Founder
-  - dates: 09/2023-present
-    text: |-
       Platform/contribution: Neurotech Hub open-source and web dissemination
       Evidence/scale: maintains 120 open-source repositories and oversees web tools serving more than 7,000 users per month
       Role: Director, Neurotech Hub
+  - dates: 2024-present
+    text: |-
+      Platform/contribution: Hublink.cloud
+      Evidence/scale: wireless data platform supporting more than 200,000 wireless file uploads from animal home cages
+      Role: Founder
 - type: section
   title: Bibliography
   entries: []
@@ -595,6 +611,7 @@ body:
   - 'Gaidica M, Hurst A, Cyr C, Leventhal DK. Distinct populations of motor thalamic neurons
     encode action initiation, action selection, and movement vigor. Journal of Neuroscience.
     2018;38(29):6563-6573. PMID: 29934350. PMCID: PMC6052244. DOI: 10.1523/JNEUROSCI.0463-18.2018.'
+  - 'Roach RC, Hackett PH, Oelz O, Bärtsch P, Luks AM, MacInnis MJ, Baillie JK; Lake Louise AMS Score Consensus Committee (including Gaidica M, consensus committee member). The 2018 Lake Louise Acute Mountain Sickness Score. High Altitude Medicine & Biology. 2018;19(1):4-6. DOI: 10.1089/ham.2017.0164.'
   - Gaidica M, Hurst A, Cyr C, Leventhal DK. Interactions between motor thalamic field potentials
     and single-unit spiking are correlated with behavior in rats. Frontiers in Neural Circuits.
     2020;14:52.
@@ -634,10 +651,10 @@ body:
   - 'Gaidica M, Gallagher A. Cerebral Seas: Profiling Brain Rhythms in Marine Apex Predators.
     Authorea Preprints. 2024.'
   - 'Gaidica M. Biocosm: A Simulation Environment for Designing Energy-Constrained Ethological
-    Sensors. bioRxiv. 2026.'
-  - 'Gaidica M., Rosengart, M. Consumer extended-reality glasses as a calibrated platform
-    for controlled retinal photostimulation: spectral and dose validation of a binocular micro-OLED
-    display. bioRxiv. 2026 (exp).'
+    Sensors. bioRxiv. 2026. DOI: 10.64898/2026.05.18.725991.'
+  - 'Gaidica M, Rosengart M. Spectral and melanopic dose calibration of consumer see-through extended-reality glasses for controlled retinal photostimulation. medRxiv. 2026. DOI: 10.64898/2026.08.26.26361398.'
+  - 'Graham RD, Creed MC, Gaidica M. FLEX-DBS: a flexible wireless platform for bilateral constant-current deep brain stimulation in freely moving rodents. bioRxiv. 2026. DOI: 10.64898/2026.10.09.757775.'
+  - 'Barrett M, Chen C, Li W, Gaidica M, Wagner A, Wu J, Musiek ES, Kravitz A. Tumbly: An Open-Source Home-Cage Device for Time-Restricted Feeding in Mice. bioRxiv. 2026. DOI: 10.64898/2026.10.19.760239.'
 - type: section
   title: Abstracts and Presentations
   entries:
@@ -654,6 +671,8 @@ body:
   - dates: '2016'
     text: Neuroscience and Biological Psychiatry Conference, Poster, St. Petersburg, Russia;
       Rackham Graduate School International Travel Grant Awardee
+  - dates: '2016'
+    text: 'American Neurological Association Annual Meeting, Poster, Baltimore, MD. Ellens DJ, Gaidica M, Hurst A, Leventhal DK. Precisely Timed Optogenetic Inhibition of Dopaminergic Neurons During Motor Skill Acquisition in Rats. Annals of Neurology. 2016;80:S143-S144.'
   - dates: '2016'
     text: University of Michigan Neuroscience Day, Poster, Ann Arbor, MI
   - dates: '2016'
@@ -714,3 +733,7 @@ body:
     text: Neuroscience 2023, Nanosymposium, Washington, DC
   - dates: '2024'
     text: INSPIRE Symposium, Poster, St. Louis, MO
+  - dates: '2026'
+    text: 'Neuroscience 2026, Nanosymposium (NANO04.05; co-author, presented by D. Ahmadi), Washington, DC. Ahmadi D, Zang K, Zhu X, Arora A, Sundaresan Venkatesan T, Gaidica M, Kepecs A. A GDF15-sensing danger circuit drives amotivation during chemotherapy.'
+  - dates: '2027'
+    text: 'North Carolina Chapter of The Wildlife Society Annual Meeting, Poster (submitted; co-author, presented by C. Tranquillo), Winston-Salem, NC. Tranquillo C, Gaidica M, Petrullo L. Connecting activity, social proximity, and gut microbiome in wild gray squirrels.'
