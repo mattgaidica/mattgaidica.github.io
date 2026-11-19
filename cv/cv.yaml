@@ -574,8 +574,16 @@ body:
       Status: Patent pending
   - dates: '2026'
     text: |-
-      Name of project: Chronolume: a clinician-controlled app for wearable light therapy (Washington University Invention Disclosure In Progress)
+      Name of project: Chronolume: a clinician-controlled app for wearable light therapy (Washington University Invention Disclosure T-022088)
       Role: Inventor
+  - dates: '2026'
+    text: |-
+      Name of project: ACORN: Autonomous Configurable Outdoor Replay Node (Washington University Invention Disclosure T-022186)
+      Role: Sole Inventor
+  - dates: '2026'
+    text: |-
+      Name of project: Wearable Ultrasound Trigeminal Nerve Stimulator for Migraine Treatment (Washington University Invention Disclosure T-022177)
+      Role: Co-Inventor
 - type: subsection
   title: Selected Research Platforms and Contributions
   entries:
