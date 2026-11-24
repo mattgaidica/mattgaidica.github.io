@@ -546,17 +546,21 @@ body:
       Role: Inventor
   - dates: '2024'
     text: |-
-      Name of project: A method for measuring liquid volume in small tubes of up to 50mL (Washington University Invention Disclosure DF-019320)
+      Name of project: A method for measuring liquid volume in small tubes of up to 50mL (Washington University Invention Disclosure T-021063)
       Role: Inventor
   - dates: '2024'
     text: |-
-      Name of project: Miniature modular fused release mechanism (Washington University Invention Disclosure DF-019336)
+      Name of project: Miniature modular fused release mechanism (Washington University Invention Disclosure T-021068)
       Role: Inventor
   - dates: '2024'
     text: |-
-      Name of project: Advanced Research Cranial Hub (ARCH) Stimulator (Washington University Invention Disclosure DF-019883)
+      Name of project: Advanced Research Cranial Hub (ARCH) Stimulator (Washington University Invention Disclosure T-021212)
       Role: Inventor
       Status: Patent pending
+  - dates: '2024'
+    text: |-
+      Name of project: Hublink: The #1 Gateway Manager (Washington University Invention Disclosure T-021261)
+      Role: Inventor
   - dates: 2024-present
     text: |-
       Name of project: Neurotech Hub Store products
@@ -574,6 +578,10 @@ body:
       Status: Patent pending
   - dates: '2026'
     text: |-
+      Name of project: FlightCap: Wireless Liquid Level and Lick Sensor Cap (Washington University Invention Disclosure T-021968)
+      Role: Inventor
+  - dates: '2026'
+    text: |-
       Name of project: Chronolume: a clinician-controlled app for wearable light therapy (Washington University Invention Disclosure T-022088)
       Role: Inventor
   - dates: '2026'
@@ -583,6 +591,10 @@ body:
   - dates: '2026'
     text: |-
       Name of project: Wearable Ultrasound Trigeminal Nerve Stimulator for Migraine Treatment (Washington University Invention Disclosure T-022177)
+      Role: Co-Inventor
+  - dates: '2026'
+    text: |-
+      Name of project: Portable Light Canopy for the ICU (Washington University Invention Disclosure T-022211)
       Role: Co-Inventor
 - type: subsection
   title: Selected Research Platforms and Contributions
