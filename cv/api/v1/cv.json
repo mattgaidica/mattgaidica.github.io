@@ -1,6 +1,6 @@
 {
   "api_version": "1",
-  "generated_at": "2026-11-27T12:33:00Z",
+  "generated_at": "2026-11-27T14:35:05Z",
   "source": "cv.yaml",
   "formats": {
     "json": "https://gaidi.ca/cv/api/v1/cv.json",
@@ -642,6 +642,10 @@
           {
             "dates": "2026",
             "text": "Funding agency: Advanced Research Projects Agency for Health (ARPA-H)\nGrant number: P26-02273\nPI: Leo Shmuylovich\nTitle of grant/application: Glow-based Lymphatic Enhancement with Angiographic Mapping (GLEAM)\nRole: Co-Investigator\nEffort Support: 20%\nOutcome: not funded; potential future pilot funding"
+          },
+          {
+            "dates": "10/2026",
+            "text": "Funding agency: Advanced Research Projects Agency for Health (ARPA-H)\nGrant number: ARPA-H-SOL-26-163\nPI: Rebecca Schwarzlose\nTitle of grant/application: The First Year: At-home Sensory and Sleep Measures for Early Identification of Quantitative Autistic Traits in Infancy (SPECTRA TA4)\nRole: Collaborator\nEffort Support: 12.5%\nOutcome: Not invited for full submission (11/2026)"
           }
         ]
       },
