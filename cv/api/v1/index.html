@@ -1,0 +1,24 @@
+---
+layout: default
+title: CV API
+---
+
+<div class="home">
+  <h1>CV API</h1>
+  <p>Static JSON endpoints for agents and tools. No auth. Regenerated whenever <code>cv.yaml</code> is rebuilt.</p>
+
+  <h2>Endpoints</h2>
+  <ul>
+    <li><a href="{{ '/cv/api/v1/index.json' | relative_url }}"><code>GET /cv/api/v1/index.json</code></a> — discovery</li>
+    <li><a href="{{ '/cv/api/v1/cv.json' | relative_url }}"><code>GET /cv/api/v1/cv.json</code></a> — full structured CV</li>
+    <li><a href="{{ '/cv/cv.yaml' | relative_url }}"><code>GET /cv/cv.yaml</code></a> — YAML source</li>
+    <li><a href="{{ '/cv/GAIDICA_WashU_CV.docx' | relative_url }}"><code>GET /cv/GAIDICA_WashU_CV.docx</code></a> — WashU Word CV</li>
+    <li><a href="{{ '/cv/GAIDICA_WashU_CV.pdf' | relative_url }}"><code>GET /cv/GAIDICA_WashU_CV.pdf</code></a> — PDF</li>
+  </ul>
+
+  <h2>Quick start</h2>
+  <pre><code>curl -s https://gaidi.ca/cv/api/v1/cv.json | jq '.profile'
+curl -s https://gaidi.ca/cv/api/v1/index.json | jq '.endpoints'</code></pre>
+
+  <p>See <a href="{{ '/cv/' | relative_url }}">cv/README</a> for the edit → build pipeline.</p>
+</div>

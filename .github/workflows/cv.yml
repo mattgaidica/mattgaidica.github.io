@@ -44,15 +44,20 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r cv/requirements.txt
 
-      - name: Build DOCX and PDF
+      - name: Build API, DOCX, and PDF
         env:
           CV_MAINFONT: Liberation Serif
+          CV_BASE_URL: https://gaidi.ca
         run: python cv/build.py
 
       - name: Commit rebuilt CV artifacts
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore(cv): rebuild DOCX/PDF from cv.yaml"
-          file_pattern: "cv/GAIDICA_WashU_CV.docx cv/GAIDICA_WashU_CV.pdf"
+          commit_message: "chore(cv): rebuild API/DOCX/PDF from cv.yaml"
+          file_pattern: >-
+            cv/GAIDICA_WashU_CV.docx
+            cv/GAIDICA_WashU_CV.pdf
+            cv/api/v1/cv.json
+            cv/api/v1/index.json
           commit_user_name: github-actions[bot]
           commit_user_email: github-actions[bot]@users.noreply.github.com

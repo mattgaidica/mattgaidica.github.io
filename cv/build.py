@@ -4,21 +4,26 @@
 Produces:
   - GAIDICA_WashU_CV.docx  (primary submission format)
   - GAIDICA_WashU_CV.pdf   (via pandoc + XeLaTeX/tectonic)
+  - api/v1/cv.json         (machine-readable API)
+  - api/v1/index.json      (API discovery)
   - _build/cv.md           (intermediate markdown)
 
 Usage:
-  python build.py              # docx + pdf
+  python build.py              # api + docx + pdf
   python build.py --docx-only
   python build.py --pdf-only
+  python build.py --api-only
 """
 
 from __future__ import annotations
 
 import argparse
+import json
 import os
 import shutil
 import subprocess
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 
 import yaml
@@ -32,8 +37,14 @@ ROOT = Path(__file__).resolve().parent
 SOURCE = ROOT / "cv.yaml"
 DOCX_OUT = ROOT / "GAIDICA_WashU_CV.docx"
 PDF_OUT = ROOT / "GAIDICA_WashU_CV.pdf"
+API_DIR = ROOT / "api" / "v1"
+API_CV_OUT = API_DIR / "cv.json"
+API_INDEX_OUT = API_DIR / "index.json"
 BUILD_DIR = ROOT / "_build"
 MD_OUT = BUILD_DIR / "cv.md"
+
+# Public site origin (CNAME). Override with CV_BASE_URL if needed.
+BASE_URL = os.environ.get("CV_BASE_URL", "https://gaidi.ca").rstrip("/")
 
 # WashU-ish layout matching the existing template (~0.7" margins, date | body).
 DATE_COL_IN = 1.25
@@ -300,6 +311,122 @@ def build_markdown(data: dict, dest: Path = MD_OUT) -> Path:
     return dest
 
 
+def _section_by_title(data: dict, title: str) -> dict | None:
+    for block in data.get("body") or []:
+        if block.get("title") == title:
+            return block
+    return None
+
+
+def _entries_as_dict(block: dict | None) -> dict[str, str]:
+    """Map Contact-style date labels → text (first line if multiline)."""
+    out: dict[str, str] = {}
+    if not block:
+        return out
+    for entry in block.get("entries") or []:
+        key = str(entry.get("dates") or "").strip()
+        text = str(entry.get("text") or "").strip()
+        if key:
+            out[key] = text
+    return out
+
+
+def public_formats() -> dict[str, str]:
+    return {
+        "json": f"{BASE_URL}/cv/api/v1/cv.json",
+        "discovery": f"{BASE_URL}/cv/api/v1/index.json",
+        "yaml": f"{BASE_URL}/cv/cv.yaml",
+        "docx": f"{BASE_URL}/cv/GAIDICA_WashU_CV.docx",
+        "pdf": f"{BASE_URL}/cv/GAIDICA_WashU_CV.pdf",
+    }
+
+
+def build_api_payload(data: dict) -> dict:
+    meta = data.get("meta") or {}
+    contact = _entries_as_dict(_section_by_title(data, "Contact Information"))
+    present = _section_by_title(data, "Present Position")
+    present_text = ""
+    if present and present.get("entries"):
+        present_text = str(present["entries"][0].get("text") or "")
+
+    return {
+        "api_version": "1",
+        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "source": "cv.yaml",
+        "formats": public_formats(),
+        "profile": {
+            "name": meta.get("name"),
+            "revised": meta.get("revised"),
+            "email": contact.get("Email"),
+            "phone": contact.get("Phone"),
+            "office_address": contact.get("Office Address"),
+            "present_position": present_text,
+        },
+        "cv": data,
+    }
+
+
+def build_api_index(data: dict) -> dict:
+    meta = data.get("meta") or {}
+    return {
+        "api_version": "1",
+        "name": "Matthew Gaidica CV API",
+        "description": (
+            "Static JSON API for the WashU Medicine CV. "
+            "Fetch cv.json for the full structured record; use profile fields for quick facts."
+        ),
+        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "cv_revised": meta.get("revised"),
+        "endpoints": [
+            {
+                "path": "/cv/api/v1/index.json",
+                "url": f"{BASE_URL}/cv/api/v1/index.json",
+                "method": "GET",
+                "description": "API discovery document",
+            },
+            {
+                "path": "/cv/api/v1/cv.json",
+                "url": f"{BASE_URL}/cv/api/v1/cv.json",
+                "method": "GET",
+                "description": "Full CV as JSON (profile + structured body from cv.yaml)",
+            },
+            {
+                "path": "/cv/cv.yaml",
+                "url": f"{BASE_URL}/cv/cv.yaml",
+                "method": "GET",
+                "description": "Editable YAML source of truth",
+            },
+            {
+                "path": "/cv/GAIDICA_WashU_CV.docx",
+                "url": f"{BASE_URL}/cv/GAIDICA_WashU_CV.docx",
+                "method": "GET",
+                "description": "WashU Medicine Word CV",
+            },
+            {
+                "path": "/cv/GAIDICA_WashU_CV.pdf",
+                "url": f"{BASE_URL}/cv/GAIDICA_WashU_CV.pdf",
+                "method": "GET",
+                "description": "PDF export",
+            },
+        ],
+        "agent_notes": [
+            "Prefer cv.json for structured parsing.",
+            "Dates use MM/YYYY; list order is chronological (oldest → newest) within sections.",
+            "body[] blocks are section | subsection | bibliography | note | entries.",
+            "No auth required. Cache using generated_at or profile.revised.",
+        ],
+    }
+
+
+def build_api(data: dict) -> tuple[Path, Path]:
+    API_DIR.mkdir(parents=True, exist_ok=True)
+    payload = build_api_payload(data)
+    index = build_api_index(data)
+    API_CV_OUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    API_INDEX_OUT.write_text(json.dumps(index, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    return API_CV_OUT, API_INDEX_OUT
+
+
 def find_pdf_engine() -> str | None:
     for engine in ("xelatex", "tectonic", "pdflatex", "lualatex"):
         if shutil.which(engine):
@@ -340,6 +467,7 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Build WashU CV from cv.yaml")
     parser.add_argument("--docx-only", action="store_true")
     parser.add_argument("--pdf-only", action="store_true")
+    parser.add_argument("--api-only", action="store_true")
     parser.add_argument("--source", type=Path, default=SOURCE)
     args = parser.parse_args(argv)
 
@@ -347,12 +475,31 @@ def main(argv: list[str] | None = None) -> int:
         print(f"Missing source: {args.source}", file=sys.stderr)
         return 1
 
-    data = load_cv(args.source)
-    do_docx = not args.pdf_only
-    do_pdf = not args.docx_only
+    exclusive = sum(bool(x) for x in (args.docx_only, args.pdf_only, args.api_only))
+    if exclusive > 1:
+        print("Use only one of --docx-only, --pdf-only, --api-only", file=sys.stderr)
+        return 1
 
-    md_path = build_markdown(data)
-    print(f"Wrote {md_path.relative_to(ROOT)}")
+    data = load_cv(args.source)
+    # Always emit API JSON (cheap, agent-facing). Flags limit docx/pdf only.
+    if args.api_only:
+        do_api, do_docx, do_pdf = True, False, False
+    elif args.docx_only:
+        do_api, do_docx, do_pdf = True, True, False
+    elif args.pdf_only:
+        do_api, do_docx, do_pdf = True, False, True
+    else:
+        do_api, do_docx, do_pdf = True, True, True
+
+    if do_api:
+        cv_path, index_path = build_api(data)
+        print(f"Wrote {cv_path.relative_to(ROOT)}")
+        print(f"Wrote {index_path.relative_to(ROOT)}")
+
+    md_path = None
+    if do_docx or do_pdf:
+        md_path = build_markdown(data)
+        print(f"Wrote {md_path.relative_to(ROOT)}")
 
     if do_docx:
         path = build_docx(data)

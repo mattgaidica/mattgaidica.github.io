@@ -1,0 +1,45 @@
+{
+  "api_version": "1",
+  "name": "Matthew Gaidica CV API",
+  "description": "Static JSON API for the WashU Medicine CV. Fetch cv.json for the full structured record; use profile fields for quick facts.",
+  "generated_at": "2026-11-27T12:26:24Z",
+  "cv_revised": "11/2026",
+  "endpoints": [
+    {
+      "path": "/cv/api/v1/index.json",
+      "url": "https://gaidi.ca/cv/api/v1/index.json",
+      "method": "GET",
+      "description": "API discovery document"
+    },
+    {
+      "path": "/cv/api/v1/cv.json",
+      "url": "https://gaidi.ca/cv/api/v1/cv.json",
+      "method": "GET",
+      "description": "Full CV as JSON (profile + structured body from cv.yaml)"
+    },
+    {
+      "path": "/cv/cv.yaml",
+      "url": "https://gaidi.ca/cv/cv.yaml",
+      "method": "GET",
+      "description": "Editable YAML source of truth"
+    },
+    {
+      "path": "/cv/GAIDICA_WashU_CV.docx",
+      "url": "https://gaidi.ca/cv/GAIDICA_WashU_CV.docx",
+      "method": "GET",
+      "description": "WashU Medicine Word CV"
+    },
+    {
+      "path": "/cv/GAIDICA_WashU_CV.pdf",
+      "url": "https://gaidi.ca/cv/GAIDICA_WashU_CV.pdf",
+      "method": "GET",
+      "description": "PDF export"
+    }
+  ],
+  "agent_notes": [
+    "Prefer cv.json for structured parsing.",
+    "Dates use MM/YYYY; list order is chronological (oldest → newest) within sections.",
+    "body[] blocks are section | subsection | bibliography | note | entries.",
+    "No auth required. Cache using generated_at or profile.revised."
+  ]
+}

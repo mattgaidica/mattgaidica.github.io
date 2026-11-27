@@ -9,15 +9,36 @@ WashU Medicine expects a Word CV for faculty packets ([Faculty Packets](https://
 ```bash
 cd cv
 make setup    # once
-make all      # → GAIDICA_WashU_CV.docx + GAIDICA_WashU_CV.pdf
+make all      # → API JSON + GAIDICA_WashU_CV.docx + GAIDICA_WashU_CV.pdf
 ```
 
 Requirements beyond Python packages: [pandoc](https://pandoc.org/) and a LaTeX engine (`xelatex`, `tectonic`, or `pdflatex`) for PDF.
 
 ```bash
-# DOCX only (no LaTeX needed)
+# DOCX only (no LaTeX needed; still writes API JSON)
 python build.py --docx-only
+
+# API JSON only
+python build.py --api-only
 ```
+
+## Public API (static)
+
+GitHub Pages cannot run a live server, so the “API” is versioned static JSON rebuilt with the CV:
+
+| Endpoint | Description |
+|----------|-------------|
+| https://gaidi.ca/cv/api/v1/index.json | Discovery + agent notes |
+| https://gaidi.ca/cv/api/v1/cv.json | Full structured CV |
+| https://gaidi.ca/cv/cv.yaml | YAML source |
+| https://gaidi.ca/cv/GAIDICA_WashU_CV.docx | WashU Word CV |
+| https://gaidi.ca/cv/GAIDICA_WashU_CV.pdf | PDF |
+
+```bash
+curl -s https://gaidi.ca/cv/api/v1/cv.json | jq '.profile'
+```
+
+Human docs: https://gaidi.ca/cv/api/v1/
 
 ## Layout of `cv.yaml`
 
@@ -74,6 +95,8 @@ CI uses `Liberation Serif` for PDF (`CV_MAINFONT`); local builds default to Time
 | File | Role |
 |------|------|
 | `cv.yaml` | Editable source |
+| `api/v1/cv.json` | Machine-readable API payload |
+| `api/v1/index.json` | API discovery |
 | `GAIDICA_WashU_CV.docx` | WashU submission / packet |
 | `GAIDICA_WashU_CV.pdf` | Shareable / site copy |
 | `_build/cv.md` | Intermediate markdown (gitignored) |
