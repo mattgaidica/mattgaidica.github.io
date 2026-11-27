@@ -1,6 +1,6 @@
 {
   "api_version": "1",
-  "generated_at": "2026-11-27T14:35:05Z",
+  "generated_at": "2026-11-27T14:37:05Z",
   "source": "cv.yaml",
   "formats": {
     "json": "https://gaidi.ca/cv/api/v1/cv.json",
