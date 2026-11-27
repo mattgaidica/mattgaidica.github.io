@@ -411,7 +411,7 @@ def build_api_index(data: dict) -> dict:
         ],
         "agent_notes": [
             "Prefer cv.json for structured parsing.",
-            "Dates use MM/YYYY; list order is chronological (oldest → newest) within sections.",
+            "Dates prefer MM/YYYY (or MM/YYYY-MM/YYYY / …-present); YYYY or YYYY-YYYY is used when month is unknown. List order is chronological (oldest → newest) within sections.",
             "body[] blocks are section | subsection | bibliography | note | entries.",
             "No auth required. Cache using generated_at or profile.revised.",
         ],

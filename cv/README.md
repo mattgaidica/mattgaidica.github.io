@@ -2,7 +2,7 @@
 
 Edit **`cv.yaml`** (source of truth), then rebuild DOCX/PDF.
 
-WashU Medicine expects a Word CV for faculty packets ([Faculty Packets](https://faculty.med.wustl.edu/appointments-promotions/faculty-packets/)): Times New Roman 12pt or Arial 11pt, dates as `MM/YYYY`, chronological oldest→newest. This pipeline mirrors the section layout already in `GAIDICA_WashU_CV.docx`.
+WashU Medicine expects a Word CV for faculty packets ([Faculty Packets](https://faculty.med.wustl.edu/appointments-promotions/faculty-packets/)): Times New Roman 12pt or Arial 11pt, dates as `MM/YYYY` when known (year-only `YYYY` is allowed), chronological oldest→newest. This pipeline mirrors the section layout already in `GAIDICA_WashU_CV.docx`.
 
 ## Quick start
 
