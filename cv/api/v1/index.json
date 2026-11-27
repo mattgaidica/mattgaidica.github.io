@@ -2,7 +2,7 @@
   "api_version": "1",
   "name": "Matthew Gaidica CV API",
   "description": "Static JSON API for the WashU Medicine CV. Fetch cv.json for the full structured record; use profile fields for quick facts.",
-  "generated_at": "2026-11-27T12:31:38Z",
+  "generated_at": "2026-11-27T12:33:00Z",
   "cv_revised": "11/2026",
   "endpoints": [
     {
